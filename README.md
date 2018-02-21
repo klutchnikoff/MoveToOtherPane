@@ -1,4 +1,4 @@
-## MoveCopy
+## MoveToOtherPane
 
 Plugin for [fman.io](https://fman.io) that gives you the ability to move/copy selected files to the other pane
 
