@@ -1,0 +1,4 @@
+[
+	{ "keys": ["Alt+m"], "command": "move_to_other_pane" },
+	{ "keys": ["Alt+c"], "command": "copy_to_other_pane" }
+]
