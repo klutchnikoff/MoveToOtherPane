@@ -17,7 +17,11 @@ class MoveToOtherPane(DirectoryPaneCommand):
 		target_path = get_path_to_other_pane(self.pane)
 		chosen_files = self.get_chosen_files()
 		for filep in chosen_files:
-			move(filep,  target_path)
+			dest_url = join(
+				target_path,
+				basename(filep)
+			)
+			move(filep,  dest_url)
 		
 
 class CopyToOtherPane(DirectoryPaneCommand):
