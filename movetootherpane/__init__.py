@@ -25,5 +25,5 @@ class MoveToOtherPane(DirectoryPaneCommand):
 				move(filep,  dest_url)
 			elif method == "copy":
 				copy(filep,  dest_url)
-			else
+			else:
 				return
