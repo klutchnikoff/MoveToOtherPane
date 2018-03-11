@@ -13,7 +13,7 @@ def get_path_to_other_pane(pane):
 
 class MoveToOtherPane(DirectoryPaneCommand):
 
-	def __call__(self, method):
+	def __call__(self, method="move"):
 		target_path = get_path_to_other_pane(self.pane)
 		chosen_files = self.get_chosen_files()
 		for filep in chosen_files:
@@ -26,4 +26,4 @@ class MoveToOtherPane(DirectoryPaneCommand):
 			elif method == "copy":
 				copy(filep,  dest_url)
 			else:
-				return
+				pass
