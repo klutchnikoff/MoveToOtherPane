@@ -27,3 +27,4 @@ class MoveToOtherPane(DirectoryPaneCommand):
 				copy(filep,  dest_url)
 			else:
 				pass
+
